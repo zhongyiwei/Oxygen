@@ -1,0 +1,645 @@
+/* 
+    Document   : style
+    Created on : May 4, 2011, 10:29:07 PM
+    Author     : 91150
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body {
+        margin-left: 15%;
+	padding: 0;
+	background: #FFFFFF url(images/img01.jpg) repeat-x left top;
+	font-family: BPreplay,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	color: #837669;
+        width: 900px;
+}
+
+h1, h2, h3 {
+	margin-left: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #649632;
+}
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 20px; }
+
+h3 { }
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+	font-family: BPreplay,Arial,Helvetica,sans-serif;
+	font-size: 14px;
+}
+
+ul, ol { }
+
+blockquote { }
+
+a { color: #000000; }
+
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+#wrapper {
+}
+
+/* Header */
+
+#header-wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 900px;
+	height: 60px;
+	margin: 0 auto;
+	background: url(images/img02.jpg) no-repeat left top;
+}
+
+/* Menu */
+#link a{
+    background:#98F5FF;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#link a:hover{
+    background:#33ff33;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 880px;
+	height: 51px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 20px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-left: 0px;
+	padding: 5px 0px 5px 45px;
+	background: url(images/logo_s.jpg) no-repeat left ;
+	text-decoration: none;
+	font: 16px Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    background:url(images/m.jpg) no-repeat;
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+/* Page */
+#page {
+	width: 900px;
+	margin: 0 auto;
+	padding: 30px 0px 0px 0px;
+}
+
+/** LOGO */
+
+#logo {
+	width: 900px;
+	height: 230px;
+	margin: 0 auto;
+	background: url(images/img_banner.jpg) no-repeat left top;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0 0 0 170px;
+	line-height: normal;
+}
+
+#logo h1 { 	float: left;
+padding-top: 160px; }
+
+#logo h1 a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #FFFFFF;
+}
+
+#logo h1 a:hover { text-decoration: underline; }
+
+#logo p {
+	padding: 200px 0 0 170px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+}
+
+#logo p a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo p a:hover { text-decoration: underline; }
+
+/* Content */
+
+#content {
+	float: right;
+	width: 600px;
+        margin-top: 0px;
+        margin-right: 0px;
+}
+
+/* Post */
+
+.post {
+	margin-bottom: 25px;
+}
+
+.post .title {
+	height: 30px;
+	margin-bottom: 3px;
+	padding: 8px 0px 2px 50px;
+	background: url(images/img05.jpg) no-repeat left top;
+	color: #FFFFFF;
+}
+
+.post .meta {
+	margin: -30px  0 3px 25px;
+	padding: 2px 30px 2px 0px;
+	font-family: BPreplay,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #B6ACA2;
+}
+
+.post .meta a { color: #B6ACA2; }
+
+.post .entry {
+	padding: 25px 20px 0px 20px;
+}
+
+.post .accordionButton{
+        margin: 0px;
+        width: 550px;
+        background:url(images/button1.jpg);
+        cursor: pointer;
+        font-size: 20px;
+}
+
+.post .links {
+	margin: 0 250px 0 0;
+	padding: 0 0 0 0px;
+}
+
+.post .links .comments {
+}
+
+.post .links .permalink {
+	padding-left: 17px;
+}
+
+.post .left{
+        margin: 0px;
+        width: 600px;
+        background:url(images/button2.png);
+        cursor: pointer;
+        font-size: 20px;
+        height: 5px;
+}
+
+.post .left_update{
+        margin: 0px;
+        width: 658px;
+        background:url(images/button2.png);
+        cursor: pointer;
+        font-size: 20px;
+        height: 5px;
+}
+
+.post .left_time{
+        margin: 0px;
+        width: 658px;
+        background:url(images/button2.png);
+        cursor: pointer;
+        font-size: 20px;
+        height: 5px;
+}
+
+/* Content subpage*/
+
+#content_sub {
+	float: right;
+	width: 690px;
+        margin-top: 0px;
+        margin-right: 0px;
+}
+
+/* Post */
+
+.post {
+	margin-bottom: 25px;
+}
+
+.post .title {
+	height: 30px;
+	margin-bottom: 3px;
+	padding: 8px 0px 2px 55px;
+	background: url(images/image05.jpg) repeat-x left top;
+	color: #FFFFFF;
+}
+
+.post .meta {
+	margin: -30px  0 3px 25px;
+	padding: 2px 30px 2px 0px;
+	font-family: BPreplay,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #B6ACA2;
+}
+
+.post .meta a { color: #B6ACA2; }
+
+.post .entry {
+	padding: 25px 20px 0px 20px;
+        font-size: 12px;
+}
+
+.post .accordionButton{
+        margin: 0px;
+        width: 550px;
+        background:url(images/button1.jpg);
+        cursor: pointer;
+        font-size: 20px;
+}
+
+.post .left{
+        margin: 0px;
+        width: 550px;
+        background:url(images/button2.png);
+        cursor: pointer;
+        font-size: 20px;
+        height: 5px;
+}
+
+.post .left_update{
+        margin: 0px;
+        width: 658px;
+        background:url(images/button2.png);
+        cursor: pointer;
+        font-size: 20px;
+        height: 10px;
+}
+
+.post .left_time{
+        margin: 0px;
+        width: 150px;
+        background:url(images/button2.png);
+        cursor: pointer;
+        font-size: 20px;
+        height: 5px;
+}
+
+.post .links {
+	margin: 0 250px 0 0;
+	padding: 0 0 0 0px;
+}
+
+.post .links .comments {
+}
+
+.post .links .permalink {
+	padding-left: 17px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 280px;
+        
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+        list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 5px;
+	padding: 0px;
+        list-style: none;
+}
+
+#sidebar p {
+	margin: 0;
+	padding: 0 20px;
+}
+
+#sidebar h2 {
+	height: 33px;
+	margin: 0 0 20px 0px;
+	padding: 8px 0 2px 50px;
+	background: url(images/logo_b.jpg) no-repeat left top;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#sidebar #link ul li{
+    margin-left: 20px;
+}
+
+#sidebar #link ul a{
+    font-size: 18;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+#sidebar #link ul a:hover{
+
+}
+
+#sidebar p {
+	line-height: 200%;
+}
+
+#xxx{
+        float: left;
+}
+#xxx ul{
+	margin:0;
+	padding:0;
+        text-decoration: none;
+}
+
+#xxx ul.container{
+	/* The topmost UL */
+	width:200px;
+	padding:0px;
+}
+
+#xxx li{
+	list-style:none;
+	text-align:left;
+        text-decoration: none;
+}
+
+#xxx li.menu{
+	/* The main list elements */
+	padding:5px 0;
+	width:100%;
+}
+
+#xxx li.button a{
+	/* The section titles */
+	display:block;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:21px;
+	height:34px;
+	overflow:hidden;
+	padding-left: 50px;
+        padding-top: 5px;
+	position:relative;
+	width:200px;
+        text-decoration: none;
+}
+
+#xxx li.button a:hover{
+	/* Removing the inherited underline from the titles */
+	text-decoration:underline;
+}
+
+#xxx li.button a span{
+	/* This span acts as the right part of the section's background */
+	height:44px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:2px;
+	display:block;
+}
+
+/* Setting up different styles for each section color */
+
+#xxx li.button a.blue{background:url(images/logo_b.jpg) repeat-x top left; color:#FFF;}
+#xxx li.button a.blue span{ background:url(images/logo_b.jpg) repeat-x top right;}
+
+#xxx li.button a.green{background:url(images/logo_b.jpg) repeat-x top left; color:#FFF;}
+#xxx li.button a.green span{ background:url(images/logo_b.jpg) repeat-x top right;}
+
+#xxx li.button a.orange{background:url(images/logo_b.jpg) repeat-x top left; color:#FFF;}
+#xxx li.button a.orange span{ background:url(images/logo_b.jpg) repeat-x top right;}
+
+#xxx li.button a.red{background:url(images/logo_b.jpg) repeat-x top left; color:#FFF;}
+#xxx li.button a.red span{ background:url(images/logo_b.jpg) repeat-x top right;}
+
+/* The hover effects */
+
+#xxx li.button a:hover{ background-position:bottom left;}
+#xxx li.button a:hover span{ background-position:bottom right;}
+
+#xxx .dropdown{
+	/* The expandable lists */
+	display:none;
+	padding-top:5px;
+	width:100%;
+}
+
+#xxx .dropdown li{
+	/* Each element in the expandable list */
+	background:url(images/b.jpg);
+	border:1px solid #40392C;
+	color:#CCCCCC;
+	margin:5px 0;
+	padding:4px 18px;
+        font-size: 14px;
+        text-decoration: none;
+}
+
+/* subpage nav */
+/*
+#subpage {
+	float: left;
+	width: 280px;
+}
+
+#subpage ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#subpage li {
+	padding: 0 0 5px 0px;
+}
+
+
+#subpage a{
+        width: 280px;
+        height: 33px;
+	margin: 0 0 0px 0px;
+	padding: 5px 0 5px 50px;
+	background: url(images/logo_250.jpg) no-repeat ;
+	font-size: 20px;
+        text-decoration: none;
+	color: #FFFFFF;
+}
+#subpage a:hover{
+        margin-left: 20px;
+}*/
+
+
+/* Footer */
+
+#footer {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img07.jpg) no-repeat left top;
+	height: 75px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: center;
+	line-height: normal;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #F1B566;
+}
+
+#footer ul{
+        list-style: none;
+}
+
+#sitemap{
+        float: left;
+        width: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#sitemap ul li{
+        float: left;
+        list-style: none;
+        padding-left: 10px;
+}
+
+#sitemap ul li a{
+        display: block;
+	float: left;
+	margin-left: 0px;
+	padding: 15px 10px 5px 50px;
+	text-decoration: underline;
+	font: 12px Georgia, "Times New Roman", Times, serif;
+        color: #FFF;
+}
+
+
+
+
+
+.fg-button { outline: 0; margin:0 4px 0 0; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }
+	.fg-button .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+
+	a.fg-button { float:left; }
+
+	/* remove extra button width in IE */
+	button.fg-button { width:auto; overflow:visible; }
+
+	.fg-button-icon-left { padding-left: 2.1em; }
+	.fg-button-icon-right { padding-right: 2.1em; }
+	.fg-button-icon-left .ui-icon { right: auto; left: .2em; margin-left: 0; }
+	.fg-button-icon-right .ui-icon { left: auto; right: .2em; margin-left: 0; }
+
+	.fg-button-icon-solo { display:block; width:8px; text-indent: -9999px; }	 /* solo icon buttons must have block properties for the text-indent to work */
+
+	.fg-buttonset { float:right; }
+	.fg-buttonset .fg-button { float: left; }
+	.fg-buttonset-single .fg-button,
+	.fg-buttonset-multi .fg-button { margin-right: -1px;}
+
+	.fg-toolbar { padding: .5em; margin: 0;  }
+	.fg-toolbar .fg-buttonset { margin-right:1.5em; padding-left: 1px; }
+	.fg-toolbar .fg-button { font-size: 1em;  }
+
+	/*demo page css*/
+	h2 { clear: both; padding-top:1.5em; margin-top:0; }
+	.strike { text-decoration: line-through; }
+
+        .bg1 { background: url(images/red.jpg) repeat-x; background-color: #98FB98; }
+        .bg2 { background: url(images/orange.jpg) repeat-x; background-color: #5A2A00; }
+        .bg3 { background: url(images/blue.jpg) repeat-x; background-color: #98F5FF; }
+
+        /*Added by Arian for Activity Tracking - 2 DIV in one row*/
+        div.row1 span.left1 {
+          float: left;
+          text-align: left;
+          font-weight: bold;
+          }
+
+        div.row1 span.right1 {
+          position:absolute;
+          float: left;
+          text-align: left;
+          left:370px;
+          font-weight: bold;
+          }
+/*        End*/
+

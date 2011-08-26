@@ -1,0 +1,48 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+.form_content{
+padding:10px;
+width:370px
+}
+.left{
+width:150px;
+float:left;
+padding:7px 0px 0px 7px;
+min-height:24px;
+}
+.right{
+width:150px;
+float:left;
+padding:5px;
+min-height:24px;
+}
+.clear{
+float:none;
+clear:both;
+height:0px;
+}
+.row{
+background-color:none;
+display:block;
+min-height:15px;
+}
+.text{
+width:190px;
+}
+.ruler{
+width:400px; border-bottom:dashed 1px #dcdcdc;
+}
+tr:focus{
+background-color:#fcfcf0;
+}
+td{
+vertical-align:top;
+}
+.over{
+background-color:#f0f0f0;
+}
+.out{
+background-color:none;
+}

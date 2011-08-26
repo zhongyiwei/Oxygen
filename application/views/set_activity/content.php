@@ -1,0 +1,1 @@
+if ($_GET['sub_content'] == 1) { echo 'Content for Page 1'; } if ($_GET['sub_content'] == 2) { echo 'Content for Page 2'; } if ($_GET['sub_content'] == 3) { echo 'Content For Page 3'; } 

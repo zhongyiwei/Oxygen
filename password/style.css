@@ -1,0 +1,33 @@
+body{
+	font-family: "Lucida Grande", "Verdana", sans-serif;
+}
+
+.block{
+	width: 300px;
+	margin: 0 auto 0 auto;
+}
+
+#complexity, #results{
+	width: 300px;
+	padding: 3px 0;
+	height: 20px;
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+}
+
+#results{
+	margin: 30px 0 20px 0;
+}
+
+.default{background-color: #CCC;}
+.weak{background-color: #FF5353;}
+.strong{background-color: #FAD054;}
+.stronger{background-color: #93C9F4; }
+.strongest{background-color: #B6FF6C;}
+
+span.value{
+	font-weight:bold;
+	float: right;
+}
+
