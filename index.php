@@ -1,9 +1,10 @@
 <?php
 
 <<<<<<< HEAD
-/*ADD NOTHING AT ALL WA LAO
+<<<<<<< HEAD
+/*ADD NOTHING AT ALL
 
->>>>>>> Test 2
+>>>>>>> Switch back to the master repository version
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
  *---------------------------------------------------------------
