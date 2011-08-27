@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*ADD NOTHING AT ALL
-
->>>>>>> Switch back to the master repository version
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
  *---------------------------------------------------------------
